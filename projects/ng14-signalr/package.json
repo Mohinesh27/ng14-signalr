@@ -1,0 +1,26 @@
+{
+  "name": "ng14-signalr",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": ">=11.0.0",
+    "@angular/core": ">=11.0.0"
+  },
+  "author": "Mohinesh Tayade",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohinesh27/ng14-signalR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohinesh27/ng14-signalr/issues"
+  },
+  "homepage": "https://github.com/mohinesh27/ng14-signalR",
+  "keywords": [
+    "signalR",
+    "typescript",
+    "angular 14"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

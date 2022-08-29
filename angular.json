@@ -5,36 +5,36 @@
   "projects": {
     "ng2-signalr": {
       "projectType": "library",
-      "root": "projects/ng2-signalr",
-      "sourceRoot": "projects/ng2-signalr/src",
+      "root": "projects/ng14-signalr",
+      "sourceRoot": "projects/ng14-signalr/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ng2-signalr/tsconfig.lib.json",
-            "project": "projects/ng2-signalr/ng-package.json"
+            "tsConfig": "projects/ng14-signalr/tsconfig.lib.json",
+            "project": "projects/ng14-signalr/ng-package.json"
           }
         ,          "configurations": {
             "production": {
-              "tsConfig": "projects/ng2-signalr/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ng14-signalr/tsconfig.lib.prod.json"
             }
           }
 },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng2-signalr/src/test.ts",
-            "tsConfig": "projects/ng2-signalr/tsconfig.spec.json",
-            "karmaConfig": "projects/ng2-signalr/karma.conf.js"
+            "main": "projects/ng14-signalr/src/test.ts",
+            "tsConfig": "projects/ng14-signalr/tsconfig.spec.json",
+            "karmaConfig": "projects/ng14-signalr/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng2-signalr/tsconfig.lib.json",
-              "projects/ng2-signalr/tsconfig.spec.json"
+              "projects/ng14-signalr/tsconfig.lib.json",
+              "projects/ng14-signalr/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -42,6 +42,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng2-signalr"
+    }
+  }
 }
